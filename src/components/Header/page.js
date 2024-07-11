@@ -9,13 +9,13 @@ const Header = () => {
         <img src="/logo.png" alt="logo" className="header--logo" />
       </Link>
       <div className="header--menuWrapper">
-        <Link href="/artwork" className="header--menuWrapper__menu">
+        <Link href="/fish" className="header--menuWrapper__menu">
           물고기
         </Link>
-        <Link href="/artwork" className="header--menuWrapper__menu">
+        <Link href="/insect" className="header--menuWrapper__menu">
           곤충
         </Link>
-        <Link href="/artwork" className="header--menuWrapper__menu">
+        <Link href="/seafood" className="header--menuWrapper__menu">
           해산물
         </Link>
         <Link href="/artwork" className="header--menuWrapper__menu">
