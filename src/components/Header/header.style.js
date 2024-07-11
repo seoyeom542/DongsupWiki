@@ -1,11 +1,14 @@
 import styled from "@emotion/styled";
+import media from "@shared/mediaQuery";
 
 const HeaderStyle = styled("header")`
   background-color: #bad647;
-  width: 1060px;
   margin: 0 auto;
   display: flex;
   height: 75px;
+  ${media.desktop} {
+    width: 1060px;
+  }
   .header--logo {
     height: 100%;
   }
