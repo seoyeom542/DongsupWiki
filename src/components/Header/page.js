@@ -1,9 +1,29 @@
 "use client";
-import Image from "next/image";
+import Link from "next/link";
 import HeaderWrapper from "./header.style";
 
 const Header = () => {
-  return <HeaderWrapper>header</HeaderWrapper>;
+  return (
+    <HeaderWrapper>
+      <Link href="/">
+        <img src="/logo.png" alt="logo" className="header--logo" />
+      </Link>
+      <div className="header--menuWrapper">
+        <Link href="/artwork" className="header--menuWrapper__menu">
+          물고기
+        </Link>
+        <Link href="/artwork" className="header--menuWrapper__menu">
+          곤충
+        </Link>
+        <Link href="/artwork" className="header--menuWrapper__menu">
+          해산물
+        </Link>
+        <Link href="/artwork" className="header--menuWrapper__menu">
+          미술품
+        </Link>
+      </div>
+    </HeaderWrapper>
+  );
 };
 
 export default Header;
