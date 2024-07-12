@@ -1,13 +1,18 @@
 "use client";
 import Link from "next/link";
 import HeaderWrapper from "./header.style";
+import nextConfig from "@config";
 
 const Header = () => {
   return (
     <HeaderWrapper>
       <div className="header">
         <Link href="/">
-          <img src="/logo.png" alt="logo" className="header--logo" />
+          <img
+            src={`${nextConfig.basePath}/logo.png`}
+            alt="logo"
+            className="header--logo"
+          />
         </Link>
         <div className="header--menuWrapper">
           <Link href="/fish" className="header--menuWrapper__menu">
