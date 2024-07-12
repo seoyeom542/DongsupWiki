@@ -7,7 +7,7 @@ const prefix =
 
 const nextConfig = {
   output: "export",
-  assetPrefix: prefix,
+  basePath: "/dongsupwiki",
 };
 
 export default nextConfig;
