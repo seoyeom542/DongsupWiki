@@ -20,12 +20,21 @@ const SeafoodStyle = styled.div`
     ${media.mobile} {
       width: 100%;
     }
+    &--index {
+      text-align: center;
+    }
+    &--name {
+      text-align: center;
+    }
     &--img {
       width: 64px;
       height: 64px;
     }
     &--button {
-      border: solid 1px #bad647;
+      background-color: #bad647;
+      color: #fffae1;
+      height: 38px;
+      border: none;
     }
   }
 `;
