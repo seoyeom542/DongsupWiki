@@ -7,21 +7,18 @@ const Seafood = () => {
   const seafooddata = SeafoodData;
   return (
     <SeafoodWrapper>
-      <div>해산물 리스트</div>
       <table className="seafood__table">
-        <th>
-          <td>번호</td>
-          <td>이름</td>
-          <td>이미지</td>
-          <td>출현 기간</td>
-          <td>채집 상태</td>
-          <td>기증 상태</td>
-        </th>
+        <tr>
+          <th>번호</th>
+          <th>이름</th>
+          <th>이미지</th>
+          <th>상세보기</th>
+        </tr>
         {seafooddata.map((data, index) => {
           return (
             <tr key={index}>
-              <td>{index + 1}</td>
-              <td>{data.name}</td>
+              <td className="seafood__table--index">{index + 1}</td>
+              <td className="seafood__table--name">{data.name}</td>
               <td>
                 <img
                   className="seafood__table--img"
@@ -29,9 +26,9 @@ const Seafood = () => {
                   alt={data.name}
                 />
               </td>
-              <td>{data.name}</td>
-              <td>{data.collectionStatus ? "채집완료" : "미채집"}</td>
-              <td>{data.donationStatus ? "기증" : "기증전"}</td>
+              <td>
+                <button className="seafood__table--button">상세보기</button>
+              </td>
             </tr>
           );
         })}
