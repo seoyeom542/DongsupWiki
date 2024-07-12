@@ -18,5 +18,385 @@
     },
     "collectionStatus": false,
     "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaCucumber.png",
+    "name": "해삼",
+    "appearance-period": {
+      "northern": "11월~4월",
+      "southern": "5월~10월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaPig.png",
+    "name": "바다돼지",
+    "appearance-period": {
+      "northern": "11월~2월",
+      "southern": "5월~8월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaStar.png",
+    "name": "불가사리",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaUrchin.png",
+    "name": "성게",
+    "appearance-period": {
+      "northern": "5월~9월",
+      "southern": "11월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SlatePencilUrchin.png",
+    "name": "연필성게",
+    "appearance-period": {
+      "northern": "5월~9월",
+      "southern": "11월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaAnemone.png",
+    "name": "말미잘",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/MoonJellyfish.png",
+    "name": "보름달물해파리",
+    "appearance-period": {
+      "northern": "7월~9월",
+      "southern": "1월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaSlug.png",
+    "name": "갯민숭달팽이",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/PearlOyster.png",
+    "name": "진주조개",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Mussel.png",
+    "name": "지중해담치",
+    "appearance-period": {
+      "northern": "6월~12월",
+      "southern": "12월~6월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Oyster.png",
+    "name": "굴",
+    "appearance-period": {
+      "northern": "9월~2월",
+      "southern": "3월~8월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Scallop.png",
+    "name": "가리비",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Whelk.png",
+    "name": "수랑",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/TurbanShell.png",
+    "name": "소라",
+    "appearance-period": {
+      "northern": ["3월~5월", "9월~12월"],
+      "southern": ["3월~6월", "9월~11월"]
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Abalone.png",
+    "name": "전복",
+    "appearance-period": {
+      "northern": "6월~1월",
+      "southern": "12월~7월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/GigasGiantClam.png",
+    "name": "대왕거거",
+    "appearance-period": {
+      "northern": "5월~9월",
+      "southern": "11월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/ChamberedNautilus.png",
+    "name": "앵무조개",
+    "appearance-period": {
+      "northern": ["3월~6월", "9월~11월"],
+      "southern": ["3월~5월", "9월~12월"]
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Octopus.png",
+    "name": "문어",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/UmbrellaOctopus.png",
+    "name": "우무문어",
+    "appearance-period": {
+      "northern": ["3월~5월", "9월~11월"],
+      "southern": ["3월~5월", "9월~11월"]
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/VampireSquid.png",
+    "name": "흡혈오징어",
+    "appearance-period": {
+      "northern": "5월~8월",
+      "southern": "11월~2월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/FireflySquid.png",
+    "name": "반딧불오징어",
+    "appearance-period": {
+      "northern": "3월~6월",
+      "southern": "9월~12월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/GazamiCrab.png",
+    "name": "꽃게",
+    "appearance-period": {
+      "northern": "6월~11월",
+      "southern": "12월~5월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/DungeonessCrab.png",
+    "name": "던지니스크랩",
+    "appearance-period": {
+      "northern": "11월~5월",
+      "southern": "5월~11월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SnowCrab.png",
+    "name": "대게",
+    "appearance-period": {
+      "northern": "11월~4월",
+      "southern": "5월~10월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/RedKingCrab.png",
+    "name": "왕게",
+    "appearance-period": {
+      "northern": "11월~3월",
+      "southern": "5월~9월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/AcornBarnacle.png",
+    "name": "따개비",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SpiderCrab.png",
+    "name": "키다리게",
+    "appearance-period": {
+      "northern": "3월~4월",
+      "southern": "9월~10월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/TigerPrawn.png",
+    "name": "보리새우",
+    "appearance-period": {
+      "northern": "6월~9월",
+      "southern": "12월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SweetShrimp.png",
+    "name": "북쪽분홍새우",
+    "appearance-period": {
+      "northern": "9월~2월",
+      "southern": "3월~8월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/MantisShrimp.png",
+    "name": "갯가재",
+    "appearance-period": {
+      "northern": "1년 내내",
+      "southern": "1년 내내"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SpinyLobster.png",
+    "name": "닭새우",
+    "appearance-period": {
+      "northern": "10월~12월",
+      "southern": "4월~6월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Lobster.png",
+    "name": "바닷가재",
+    "appearance-period": {
+      "northern": ["4월~6월", "12월~1월"],
+      "southern": ["6월~7월", "10월~12월"]
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/GiantIsopod.png",
+    "name": "자이언트 이소포드",
+    "appearance-period": {
+      "northern": "7월~10월",
+      "southern": "1월~4월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/HorseshoeCrab.png",
+    "name": "투구게",
+    "appearance-period": {
+      "northern": "7월~9월",
+      "southern": "1월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SeaPineapple.png",
+    "name": "멍게",
+    "appearance-period": {
+      "northern": "4월~8월",
+      "southern": "10월~2월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/SpottedGardenEel.png",
+    "name": "가든일",
+    "appearance-period": {
+      "northern": "5월~10월",
+      "southern": "11월~4월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/Flatworm.png",
+    "name": "납작벌레",
+    "appearance-period": {
+      "northern": "8월~9월",
+      "southern": "2월~3월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
+  },
+  {
+    "src": "/seafood/VenusFlowerBasket.png",
+    "name": "해로동혈",
+    "appearance-period": {
+      "northern": "10월~2월",
+      "southern": "4월~8월"
+    },
+    "collectionStatus": false,
+    "donationStatus": false
   }
 ]
