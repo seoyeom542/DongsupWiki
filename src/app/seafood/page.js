@@ -6,6 +6,10 @@ import nextConfig from "@config";
 const Seafood = () => {
   const seafooddata = SeafoodData;
 
+  const showInfo = () => {
+    console.log("showInfo");
+  };
+
   return (
     <SeafoodWrapper>
       <table className="seafood__table">
@@ -28,7 +32,9 @@ const Seafood = () => {
                 />
               </td>
               <td>
-                <button className="seafood__table--button">상세보기</button>
+                <button className="seafood__table--button" onClick={showInfo}>
+                  상세보기
+                </button>
               </td>
             </tr>
           );
