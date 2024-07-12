@@ -6,8 +6,8 @@
       "northern": "10월~7월",
       "southern": "4월~1월"
     },
-    "collection-status": false,
-    "donation-status": false
+    "collectionStatus": false,
+    "donationStatus": false
   },
   {
     "src": "/seafood/SeaGrapes.png",
@@ -16,7 +16,7 @@
       "northern": "6월~9월",
       "southern": "12월~3월"
     },
-    "collection-status": false,
-    "donation-status": false
+    "collectionStatus": false,
+    "donationStatus": false
   }
 ]
