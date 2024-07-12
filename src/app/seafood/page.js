@@ -8,7 +8,7 @@ const Seafood = () => {
   return (
     <SeafoodWrapper>
       <div>해산물 리스트</div>
-      <table>
+      <table className="seafood__table">
         <th>
           <td>번호</td>
           <td>이름</td>
@@ -24,6 +24,7 @@ const Seafood = () => {
               <td>{data.name}</td>
               <td>
                 <img
+                  className="seafood__table--img"
                   src={`${nextConfig.basePath}` + data.src}
                   alt={data.name}
                 />

@@ -6,6 +6,12 @@ const SeafoodStyle = styled.div`
     width: 1080px;
     margin: 0 auto;
   }
+  .seafood__table {
+    &--img {
+      width: 64px;
+      height: 64px;
+    }
+  }
 `;
 
 export default SeafoodStyle;
