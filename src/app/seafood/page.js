@@ -5,6 +5,7 @@ import nextConfig from "@config";
 
 const Seafood = () => {
   const seafooddata = SeafoodData;
+
   return (
     <SeafoodWrapper>
       <table className="seafood__table">
