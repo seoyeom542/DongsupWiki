@@ -10,20 +10,40 @@ const HeaderStyle = styled("header")`
       width: 1060px;
       margin: 0 auto;
     }
+    ${media.mobile} {
+      padding: 20px 20px;
+    }
     &--logo {
-      height: 100%;
+      ${media.desktop} {
+        height: 100%;
+      }
+      ${media.mobile} {
+        text-align: center;
+        height: 100px;
+      }
     }
     &--menuWrapper {
       display: flex;
+      ${media.mobile} {
+        margin-top: 20px;
+        justify-content: space-between;
+      }
       &__menu {
+        color: #fffae1;
         display: block;
         text-decoration: none;
-        font-size: 40px;
-        line-height: 75px;
-        color: #fffae1;
+        ${media.desktop} {
+          line-height: 75px;
+          font-size: 40px;
+        }
+        ${media.mobile} {
+          font-size: 28px;
+        }
       }
       &__menu:not(:last-child) {
-        margin-right: 20px;
+        ${media.desktop} {
+          margin-right: 20px;
+        }
       }
     }
   }
