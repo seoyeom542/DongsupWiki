@@ -1,0 +1,22 @@
+[
+  {
+    "src": "/seafood/Seaweed.png",
+    "name": "미역",
+    "appearance-period": {
+      "northern": "10월~7월",
+      "southern": "4월~1월"
+    },
+    "collection-status": false,
+    "donation-status": false
+  },
+  {
+    "src": "/seafood/SeaGrapes.png",
+    "name": "바다포도",
+    "appearance-period": {
+      "northern": "6월~9월",
+      "southern": "12월~3월"
+    },
+    "collection-status": false,
+    "donation-status": false
+  }
+]
