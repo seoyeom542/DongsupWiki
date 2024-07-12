@@ -4,7 +4,8 @@
       "@/*": ["./src/*"],
       "@public/*": ["./public/*"],
       "@shared/*": ["./shared/*"],
-      "@config": ["./next.config.mjs"]
+      "@config": ["./next.config.mjs"],
+      "@data": ["./data/*"]
     }
   }
 }
