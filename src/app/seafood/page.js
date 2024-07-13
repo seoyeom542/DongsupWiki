@@ -11,7 +11,6 @@ const Seafood = () => {
   const [openPopup, setOpenPopup] = useState(false);
 
   const showInfo = () => {
-    console.log("showInfo");
     const isOpen = !openPopup;
     setOpenPopup(isOpen);
   };
