@@ -4,6 +4,7 @@ import { useState } from "react";
 import SeafoodData from "../../../data/seafood";
 import SeafoodWrapper from "./seafood.style";
 import nextConfig from "@config";
+import InfoModal from "../../components/InfoModal/page";
 
 const Seafood = () => {
   const seafooddata = SeafoodData;
@@ -52,8 +53,8 @@ const Seafood = () => {
 
       {openPopup && (
         <div className="fursysQuestionaction--popup-wrap">
-          팝업노출!!!
-          {/* <InquiryActionPopup clickCancle={clickQuestion} /> */}
+          <InfoModal />
+          {/* <InfoModal clickCancle={clickQuestion} /> */}
         </div>
       )}
     </SeafoodWrapper>
