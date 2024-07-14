@@ -9,8 +9,10 @@ import InfoModal from "../../components/InfoModal/page";
 const Seafood = () => {
   const seafooddata = SeafoodData;
   const [openPopup, setOpenPopup] = useState(false);
+  const [infoData, setInfoData] = useState(seafooddata[1]);
 
-  const showInfo = () => {
+  const showInfo = (data) => {
+    setInfoData({ ...data });
     const isOpen = !openPopup;
     setOpenPopup(isOpen);
   };
@@ -40,7 +42,10 @@ const Seafood = () => {
                   />
                 </td>
                 <td>
-                  <button className="seafood__table--button" onClick={showInfo}>
+                  <button
+                    className="seafood__table--button"
+                    onClick={() => showInfo(data)}
+                  >
                     상세보기
                   </button>
                 </td>
@@ -52,8 +57,8 @@ const Seafood = () => {
 
       {openPopup && (
         <div className="fursysQuestionaction--popup-wrap">
-          <InfoModal />
-          {/* <InfoModal clickCancle={clickQuestion} /> */}
+          {/* <InfoModal /> */}
+          <InfoModal clickCancle={showInfo} infoData={infoData} />
         </div>
       )}
     </SeafoodWrapper>

@@ -17,6 +17,16 @@ const InfoModalStyle = styled.div`
     top: 0;
     left: 0;
   }
+  .dataInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    ${media.mobile} {
+      width: calc((100% - 40px));
+    }
+  }
 `;
 
 export default InfoModalStyle;
