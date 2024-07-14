@@ -3,7 +3,6 @@ import nextConfig from "@config";
 import InfoModalWrapper from "./infoModal.style";
 
 const InfoModal = ({ clickCancle, infoData }) => {
-  console.log("infoData22222: ", infoData);
   return (
     <InfoModalWrapper onClick={() => clickCancle(infoData)}>
       <div key={infoData.name} class="dataInfo">
