@@ -5,7 +5,7 @@ import InfoModalWrapper from "./infoModal.style";
 const InfoModal = ({ clickCancle, infoData }) => {
   return (
     <InfoModalWrapper onClick={() => clickCancle(infoData)}>
-      <div key={infoData.name} class="dataInfo">
+      <div key={infoData.name} className="dataInfo">
         {infoData.name}
 
         <img
